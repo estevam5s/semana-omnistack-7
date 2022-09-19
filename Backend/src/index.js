@@ -10,7 +10,6 @@ const io = require('socket.io')(server);
 
 mongoose
   .connect(
-    'mongodb+srv://admin:3381@cluster0-tityt.mongodb.net/test?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
